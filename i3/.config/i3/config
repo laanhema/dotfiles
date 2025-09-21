@@ -9,9 +9,10 @@ title_align center
 default_border none
 default_floating_border none
 
+# keyboard layout switch setup
 exec_always --no-startup-id "setxkbmap -layout us,fi -option 'grp:win_space_toggle'"
 
-#exec_always killall xborders
+# xborder
 exec_always ~/.config/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#f5c2e7' --border-radius 10 --border-width 2
 
 # i3 config file (v4)
@@ -245,6 +246,7 @@ exec --no-startup-id redshift -P -O 2500
 # picom
 exec --no-startup-id picom
 
+# polybar
 #exec_always --no-startup-id killall polybar
 exec --no-startup-id ~/.config/polybar/launch_polybar.sh
 
