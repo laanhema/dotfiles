@@ -293,7 +293,7 @@ client.placeholder       $overlay0 $base  $text    $overlay0  $overlay0
 client.background        $base
 
 # killing unnecessary processes
-exec_always pkill volumeicon
-exec_always pkill evolution-alarm
-exec_always pkill kclockd
-exec_always pkill kdeconnectd
+#exec_always pkill volumeicon
+#exec_always pkill evolution-alarm
+#exec_always pkill kclockd
+#exec_always pkill kdeconnectd
