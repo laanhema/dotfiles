@@ -3,17 +3,20 @@
 #
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
-#
 
 title_align center
 default_border none
 default_floating_border none
 
+gaps inner 0px
+
 # keyboard layout switch setup
-exec_always --no-startup-id "setxkbmap -layout us,fi -option 'grp:win_space_toggle'"
+exec --no-startup-id "setxkbmap -layout us,fi -option 'grp:win_space_toggle'"
+
 
 # xborder
-exec_always ~/.config/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#f5c2e7' --border-radius 10 --border-width 2
+#exec_always --no-startup-id pkill xborders
+exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#cba6f7' --border-radius 10 --border-width 2
 
 # i3 config file (v4)
 #
@@ -42,7 +45,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -66,7 +69,7 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
-bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#1e1e2e' -nf '#f5c2e7' -sb '#f5c2e7' -sf '#1e1e2e' -fn 'CommitMono Nerd Font:pixelsize=16'
+bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#1e1e2e' -nf '#cba6f7' -sb '#cba6f7' -sf '#1e1e2e' -fn 'CommitMono Nerd Font:pixelsize=16'
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -251,7 +254,7 @@ exec --no-startup-id picom
 exec --no-startup-id ~/.config/polybar/launch_polybar.sh
 
 # bg
-exec_always --no-startup-id feh --bg-scale ~/.config/bg/catpuccin2.png
+exec --no-startup-id feh --bg-scale ~/.config/bg/catpuccin2.png
 
 # catpuccin colors
 set $rosewater #f5e0dc
@@ -288,3 +291,9 @@ client.unfocused         $overlay0 $base  $text    $rosewater $overlay0
 client.urgent            $peach    $base  $peach   $overlay0  $peach
 client.placeholder       $overlay0 $base  $text    $overlay0  $overlay0
 client.background        $base
+
+# killing unnecessary processes
+exec_always pkill volumeicon
+exec_always pkill evolution-alarm
+exec_always pkill kclockd
+exec_always pkill kdeconnectd
