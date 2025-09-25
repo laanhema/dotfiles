@@ -21,4 +21,8 @@ style = "Bold Italic"
 family = "CommitMono Nerd Font"
 style = "Italic"
 
+[window]
+padding = { x = 10, y = 10 }
 
+[cursor]
+style = { shape = "Block", blinking = "On" }
