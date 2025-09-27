@@ -42,7 +42,7 @@ i3lock -c 000000 \
 --clock                      \
 --indicator                  \
 --time-str="%H:%M:%S"        \
---date-str="%A, %d-%m-%Y"    \
+--date-str="%A, %d/%m/%Y"    \
 --keylayout 1                \
 $ARGS
 
