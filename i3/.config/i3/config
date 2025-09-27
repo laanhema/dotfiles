@@ -37,7 +37,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # dmenu
-bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#1e1e2e' -nf '#cba6f7' -sb '#cba6f7' -sf '#1e1e2e' -fn 'CommitMono Nerd Font:pixelsize=16' -l 10
+#bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#1e1e2e' -nf '#cba6f7' -sb '#cba6f7' -sf '#1e1e2e' -fn 'CommitMono Nerd Font:pixelsize=16' -l 10
+bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#242331' -nf '#D6C1C1' -sb '#D6C1C1' -sf '#242331' -fn 'CommitMono Nerd Font:pixelsize=16' -l 10
 
 # change focus
 bindsym $mod+j focus left
@@ -248,8 +249,31 @@ gaps inner 0px
 # keyboard layout switch setup
 exec --no-startup-id "setxkbmap -layout us,fi -option 'grp:win_space_toggle'"
 
+
+#272837 darkest
+
+#282938 dark
+#272837 dark
+
+#------------------------------
+
+#3C3E4F medium
+#4D4E5E medium
+#717181 medium_wood
+
+#------------------------------
+
+#D6C1C1 almost_bright_darker_good
+#DEC8C8 almost_bright
+
+#E2CCCB brightest_alt
+#E2CCCD brightest
+
+
+
 # xborder
-exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#cba6f7' --border-radius 10 --border-width 2
+#exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#cba6f7' --border-radius 10 --border-width 2
+exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#D6C1C1' --border-radius 10 --border-width 2
 
 # Shortcut for Lockscreen
 bindsym $mod+x exec --no-startup-id ~/dotfiles/i3lock/.config/i3lock/lock.sh

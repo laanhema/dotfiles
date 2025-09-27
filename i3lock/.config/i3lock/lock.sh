@@ -12,12 +12,16 @@ magick "$img" -blur 0x5 "$blurredTempImg"
 # for --nofork
 ARGS="$@"
 
-BLANK='#00000000'
-CLEAR='#ffffff22'
-DEFAULT='#ff00ffcc'
-TEXT='#ee00eeee'
+BLANK='#00000044'
+CLEAR='#ffffff44'
+#DEFAULT='#ff00ffcc'
+DEFAULT='#E2CCCDFF'
+#TEXT='#ee00eeee'
+TEXT='#E2CCCDFF'
 WRONG='#880000bb'
-VERIFYING='#bb00bbbb'
+#VERIFYING='#bb00bbbb'
+VERIFYING='#E2CCCDFF'
+PRESSED='000000FF'
 
 i3lock -c 000000 \
 --image="$blurredTempImg" \
@@ -37,13 +41,14 @@ i3lock -c 000000 \
 --time-color=$TEXT           \
 --date-color=$TEXT           \
 --layout-color=$TEXT         \
---keyhl-color=$WRONG         \
+--keyhl-color=$PRESSED       \
 --bshl-color=$WRONG          \
 --clock                      \
 --indicator                  \
 --time-str="%H:%M:%S"        \
 --date-str="%A, %d/%m/%Y"    \
 --keylayout 1                \
+
 $ARGS
 
 # cleanup
