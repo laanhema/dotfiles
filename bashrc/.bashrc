@@ -24,15 +24,11 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(oh-my-posh init bash --config $(brew --prefix oh-my-posh)/themes/bubblesextra.omp.json)"
+# oh-my-posh theme
+eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/bubblesextra.omp.json')"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-source /home/lauri/.config/op/plugins.sh
-source /home/lauri/.config/op/plugins.sh
-
+# git credentials environmental variables 
 export GIT_ASKPASS="";
-#export core.askPass=".askPass";
 export SSH_ASKPASS="";
+
+
