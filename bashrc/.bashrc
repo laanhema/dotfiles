@@ -25,7 +25,9 @@ fi
 unset rc
 
 # oh-my-posh theme
-eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/bubblesextra.omp.json')"
+#eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/bubblesextra.omp.json')"
+#eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/bubbles.omp.json')"
+eval "$(oh-my-posh init bash --config '~/.mytheme.omp.json')"
 
 # git credentials environmental variables 
 export GIT_ASKPASS="";
