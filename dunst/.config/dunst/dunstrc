@@ -45,6 +45,16 @@ stack_duplicates = true
 hide_duplicate_count = false
 show_indicators = yes
 
+enable_recursive_icon_lookup = true
+icon_theme = Adwaita
+icon_position = left
+min_icon_size = 32
+max_icon_size = 128
+icon_path = /usr/share/icons/hicolor/scalable/apps:/usr/share/icons/hicolor/48x48/apps
+
+sticky_history = yes
+history_length = 20
+
 [urgency_low]
 background = "#242331"
 foreground = "#D6C1C1"
