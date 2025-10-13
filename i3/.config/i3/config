@@ -2,6 +2,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# this setups up which one is mod-key
+# (windows key is mod4, alt is mod1)
 set $mod Mod4
 
 

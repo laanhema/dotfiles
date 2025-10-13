@@ -34,3 +34,4 @@ export GIT_ASKPASS="";
 export SSH_ASKPASS="";
 
 
+export TERMINAL=alacritty
