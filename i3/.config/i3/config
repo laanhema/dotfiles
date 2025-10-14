@@ -294,7 +294,14 @@ gaps inner 0px
 
 # xborder
 #exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#cba6f7' --border-radius 10 --border-width 2
-exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#D6C1C1' --border-radius 0 --border-width 2
+#exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#D6C1C1' --border-radius 0 --border-width 2
+
+#yellow
+#exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#D8A657' --border-radius 0 --border-width 2
+#fg0
+#exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#D4BE98' --border-radius 0 --border-width 2
+#fg1
+exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x-offset 0 --positive-y-offset 0 --negative-x-offset 0 --negative-y-offset 0 --border-rgba '#DDC7A1' --border-radius 0 --border-width 2
 
 # dunst notifications
 exec --no-startup-id dunst &
