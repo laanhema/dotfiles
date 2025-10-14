@@ -1,9 +1,5 @@
-#general.import = [
-#  "~/.config/alacritty/gruvbox_material.toml"
-#]
-
 general.import = [
-  "~/.config/alacritty/gruvbox-material-alacritty.toml"
+  "~/.config/alacritty/gruvbox-material-soft-dark.toml"
 ]
 
 [font]
