@@ -34,7 +34,7 @@ line_height = 1
 
 markup = full
 
-format = "<b>%s</b>\n%b"
+format = "%a\n\n<b>%s</b>\n%b"
 
 alignment = left
 vertical_alignment = top
@@ -43,14 +43,15 @@ ellipsize = middle
 ignore_newline = no
 stack_duplicates = true
 hide_duplicate_count = false
-show_indicators = yes
+show_indicators = no
 
-enable_recursive_icon_lookup = true
-#icon_theme = Adwaita
+#icon_theme = hicolor
+#enable_recursive_icon_lookup = true
+icon_path = /usr/share/icons/hicolor/48x48/apps:/usr/share/icons/hicolor/32x32/apps:/usr/share/icons/hicolor/scalable/apps
 icon_position = left
 min_icon_size = 32
-max_icon_size = 128
-icon_path = /usr/share/icons/hicolor/scalable/apps:/usr/share/icons/hicolor/48x48/apps
+max_icon_size = 48
+
 
 sticky_history = yes
 history_length = 20
