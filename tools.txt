@@ -1,37 +1,43 @@
-- CommitMono Nerd Font Mono (so glyphs work properly in oh-my-posh theme)
-- (gruvbox material dark soft color scheme by sainnhe)
-- vscode gruvboxConcoctis dark soft
-- sublime text gruvbox material dark theme
-- firefox, librewolf gruvbox material soft dark theme
-- alacritty gruvbox material soft dark colors
+TOOLS:
 
-- todo:
-	- alacritty colors v
-	- polybar colors v
-	- xborder colors v
-	- i3 colors v
-	- dmenu colors v 
-	- dunst colors v
-	- bg change mby idk v
-	- i3lock colors v
-	- update oh-my-posh theme colors v
+OS:												Fedora Linux 42 (Workstation Edition)
+Login:										gdm
+WM:												i3 (X11)
+Font: 										CommitMono Nerd Font / CommitMono Nerd Font Mono (glyphs work properly with this variant in oh-my-posh theme)
+Colorscheme: 							Gruvbox Material Soft Dark by sainnhe
+Browser: 									Firefox / Librewolf / Chrome
+Shell:										Bash (using modified bubblesextra oh-my-posh theme to match with colorscheme)
+Terminal Emulator: 				Alacritty
+IDE:											vscode
+Text Editor:							Sublime Text / nano / Gnome Text Editor
 
-	- disable touchpad when typing on synaptics
-	- kato että dev stack toimii angular tehtävät esim aukeeko selaimeen jnejne...
 
-1password
-timeshift
-nm-snippet
-polybar
-picom
-redshift
-i3
-firefox
-librewolf
-alacritty
-ohmyposh on bash
-xborders
-btop
-pipewire-pulse
-pipewire
-sddm
+COLORS (more specifically):
+
+- vscode: 								gruvboxConcoctis dark soft
+- Sublime Text: 					gruvbox material dark theme
+- Firefox / Librewolf: 		gruvbox material soft dark theme
+- Alacritty: 							gruvbox material soft dark
+
+
+TOOLS LIST: 
+
+- gdm
+- i3
+- dmenu
+- picom
+- polybar
+- xborder
+- redshift
+- feh
+- dunst
+- i3lock-color
+- stow
+- synaptics driver for touchpad
+- oh-my-posh theme for bash
+- alacritty
+- flameshot
+- rhythmbox
+- vlc media player
+- 1password
+- own bgs
