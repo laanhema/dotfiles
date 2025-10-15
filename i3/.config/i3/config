@@ -307,3 +307,7 @@ exec_always --no-startup-id ~/xborder/xborders --border-mode inside --positive-x
 
 # dunst notifications
 exec --no-startup-id dunst &
+
+# flameshot printscreen keybindings
+bindsym $mod+Print exec --no-startup-id "flameshot full"
+bindsym $mod+Shift+S exec --no-startup-id "flameshot gui"
