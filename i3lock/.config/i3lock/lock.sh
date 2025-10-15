@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # orig image
-img="/home/lauri/.config/bg/catpuccin2.png"
+#img="/home/lauri/.config/bg/catpuccin2.png"
+img="/home/lauri/.config/bg/gruvbox/snake2.png"
 
 # temp image for blur
 blurredTempImg="/tmp/lockscreen_blurred.png"
@@ -12,16 +13,16 @@ magick "$img" -blur 0x5 "$blurredTempImg"
 # for --nofork
 ARGS="$@"
 
-BLANK='#00000044'
-CLEAR='#ffffff44'
+BLANK='#0000004D'
+CLEAR='#FFFFFF4D'
 #DEFAULT='#ff00ffcc'
-DEFAULT='#E2CCCDFF'
+DEFAULT='#DDC7A1FF'
 #TEXT='#ee00eeee'
-TEXT='#E2CCCDFF'
-WRONG='#880000bb'
+TEXT='#DDC7A1FF'
+WRONG='#EA6962FF'
 #VERIFYING='#bb00bbbb'
-VERIFYING='#E2CCCDFF'
-PRESSED='000000FF'
+VERIFYING='#A9B665FF'
+PRESSED='000000CC'
 
 i3lock -c 000000 \
 --image="$blurredTempImg" \

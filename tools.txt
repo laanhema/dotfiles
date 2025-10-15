@@ -7,13 +7,15 @@
 
 - todo:
 	- alacritty colors v
-	- polybar colors 
+	- polybar colors v
 	- xborder colors v
-	- dmenu colors
-	- dunst colors
-	- bg change mby idk
-	- i3lock colors
+	- i3 colors v
+	- dmenu colors v 
+	- dunst colors v
+	- bg change mby idk v
+	- i3lock colors v
 	- update oh-my-posh theme colors
+
 	- disable touchpad when typing on synaptics
 	- kato että dev stack toimii angular tehtävät esim aukeeko selaimeen jnejne...
 

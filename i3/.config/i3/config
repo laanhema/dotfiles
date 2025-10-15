@@ -40,7 +40,7 @@ bindsym $mod+Shift+q kill
 
 # dmenu
 #bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#1e1e2e' -nf '#cba6f7' -sb '#cba6f7' -sf '#1e1e2e' -fn 'CommitMono Nerd Font:pixelsize=16' -l 10
-bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#242331' -nf '#D6C1C1' -sb '#D6C1C1' -sf '#242331' -fn 'CommitMono Nerd Font:pixelsize=16' -l 10
+bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#252423' -nf '#DDC7A1' -sb '#DDC7A1' -sf '#252423' -fn 'CommitMono Nerd Font:pixelsize=16' -l 10
 
 # change focus
 bindsym $mod+j focus left
@@ -202,7 +202,9 @@ exec --no-startup-id picom
 exec --no-startup-id ~/.config/polybar/launch_polybar.sh
 
 # bg
-exec --no-startup-id feh --bg-scale ~/.config/bg/catpuccin2.png
+#exec --no-startup-id feh --bg-scale ~/.config/bg/catpuccin2.png
+#exec --no-startup-id feh --bg-scale ~/.config/bg/gruvbox/snake.png
+exec --no-startup-id feh --bg-scale ~/.config/bg/gruvbox/snake2.png
 
 # catpuccin colors
 # set $rosewater #f5e0dc
@@ -233,15 +235,15 @@ exec --no-startup-id feh --bg-scale ~/.config/bg/catpuccin2.png
 # set $crust     #11111b
 
 #newtestcolors
-set $dst2                      #242331
-set $dst                       #272837
-set $dark                      #282938
-set $medium1                   #3C3E4F
-set $medium2                   #4D4E5E
-set $medium_wood               #717181
-set $abdg                      #D6C1C1
-set $almost_bright             #DEC8C8
-set $brightest                 #E2CCCD
+set $dst2                      #252423
+set $dst                       #252423
+set $dark                      #32302F
+set $medium1                   #3C3836
+set $medium2                   #5B534D
+set $medium_wood               #7C6F64
+set $abdg                      #DDC7A1
+set $almost_bright             #D4BE98
+set $brightest                 #DDC7A1
 
 
 # target                 title     bg     text      indicator  border
