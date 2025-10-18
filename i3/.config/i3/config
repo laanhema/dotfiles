@@ -314,3 +314,7 @@ bindsym $mod+Shift+S exec --no-startup-id "flameshot gui"
 
 # bluetooth applet for systray
 exec --no-startup-id blueman-applet
+
+# brightness control
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
