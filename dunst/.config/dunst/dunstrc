@@ -25,7 +25,7 @@ separator_height = 2
 padding = 8
 horizontal_padding = 18
 
-gap_size = 0
+gap_size = 15
 separator_color = frame
 sort = yes
 font = CommitMono Nerd Font Mono 11

@@ -1,6 +1,4 @@
 TODO:
 
-- get dunst notifications icons to work
 - disable touchpad when typing on synaptics config
 - find a good lightweight music player that supports multiple concurrent instances
-- mby line or block cursor in all text editors?

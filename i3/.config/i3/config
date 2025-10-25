@@ -166,26 +166,9 @@ set $mode_redshift Set colour temperature and brightness:
 set $kill_redshift pkill -9 redshift;
 mode "$mode_redshift" {
     bindsym x exec --no-startup-id "$kill_redshift redshift -x", mode "default"
-    bindsym 1 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 1.0", mode "default"
-    bindsym 2 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 0.9", mode "default"
-    bindsym 3 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 0.8", mode "default"
-    bindsym 4 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 0.7", mode "default"
-    bindsym 5 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 0.6", mode "default"
-    bindsym 6 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 0.5", mode "default"
-    bindsym 7 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 0.4", mode "default"
-    bindsym 8 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 0.3", mode "default"
-    bindsym 9 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 0.2", mode "default"
-    bindsym 0 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 0.1", mode "default"
-    bindsym q exec --no-startup-id "$kill_redshift redshift -P -O 2000 -b 1.0", mode "default"
-    bindsym w exec --no-startup-id "$kill_redshift redshift -P -O 2000 -b 0.9", mode "default"
-    bindsym e exec --no-startup-id "$kill_redshift redshift -P -O 2000 -b 0.8", mode "default"
-    bindsym r exec --no-startup-id "$kill_redshift redshift -P -O 2000 -b 0.7", mode "default"
-    bindsym t exec --no-startup-id "$kill_redshift redshift -P -O 2000 -b 0.6", mode "default"
-    bindsym y exec --no-startup-id "$kill_redshift redshift -P -O 2000 -b 0.5", mode "default"
-    bindsym u exec --no-startup-id "$kill_redshift redshift -P -O 2000 -b 0.4", mode "default"
-    bindsym i exec --no-startup-id "$kill_redshift redshift -P -O 2000 -b 0.3", mode "default"
-    bindsym o exec --no-startup-id "$kill_redshift redshift -P -O 2000 -b 0.2", mode "default"
-    bindsym p exec --no-startup-id "$kill_redshift redshift -P -O 2000 -b 0.1", mode "default"
+    bindsym 1 exec --no-startup-id "$kill_redshift redshift -P -O 2750 -b 1.0", mode "default"
+    bindsym q exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 1.0", mode "default"
+
  
     # exit mode: "Enter" or "Escape"
     bindsym Return mode "default"
@@ -193,7 +176,7 @@ mode "$mode_redshift" {
 }
 
 # execute redshift on startup
-exec --no-startup-id redshift -P -O 2500
+exec --no-startup-id redshift -P -O 2750
 
 # picom
 exec --no-startup-id picom
@@ -318,3 +301,6 @@ exec --no-startup-id blueman-applet
 # brightness control
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
+
+# disable touchpad when typing
+#exec_always --no-startup-id syndaemon -i 5.0
