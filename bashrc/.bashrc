@@ -35,3 +35,7 @@ export SSH_ASKPASS="";
 
 
 export TERMINAL=alacritty
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
