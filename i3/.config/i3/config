@@ -166,8 +166,8 @@ set $mode_redshift Set colour temperature and brightness:
 set $kill_redshift pkill -9 redshift;
 mode "$mode_redshift" {
     bindsym x exec --no-startup-id "$kill_redshift redshift -x", mode "default"
-    bindsym 1 exec --no-startup-id "$kill_redshift redshift -P -O 2750 -b 1.0", mode "default"
-    bindsym q exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 1.0", mode "default"
+    bindsym 1 exec --no-startup-id "$kill_redshift redshift -P -O 2500 -b 1.0", mode "default"
+    bindsym q exec --no-startup-id "$kill_redshift redshift -P -O 2650 -b 1.0", mode "default"
 
  
     # exit mode: "Enter" or "Escape"
@@ -176,7 +176,7 @@ mode "$mode_redshift" {
 }
 
 # execute redshift on startup
-exec --no-startup-id redshift -P -O 2750
+exec --no-startup-id redshift -P -O 2500
 
 # picom
 exec --no-startup-id picom
