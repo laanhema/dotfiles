@@ -1,4 +1,4 @@
 TODO:
 
 - disable touchpad when typing on synaptics config
-- find a good lightweight music player that supports multiple concurrent instances
+- fix vscode crashes - opening integrated terminal makes vscode freeze
