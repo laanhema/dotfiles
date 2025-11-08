@@ -1,6 +1,6 @@
 configuration {
 	modi:				"drun";
-	font:				"Rubik 10";
+	font:				"CommitMono Nerd Font 11";
 	show-icons:                     true;
 	icon-theme: 			"Reversal-dark";
 	display-drun: 			"";
@@ -11,26 +11,28 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				#151515;
-	fg:				#e8e8d3;
+	bg:				#252423;
+	fg:				#DDC7A1;
 	accent:				#687363;
-	button:				#1c1c1c;
+	button:				#32302F;
 
 	background-color:		@bg;
 	text-color:			@fg;
 }
 
 window {
-	border-radius:                  7px;
+	border-radius:                  0px;
 	width:			    	50%;
 	padding: 			32px;
+	border: 0px;
+	border-color: @fg;
 }
 
 prompt {
 	background-color:		@button;
 	enabled:			true;
 	padding:			0.5% 32px 0% -0.5%;
-	font:				"Rubik 10";
+	font:				"CommitMono Nerd Font 10";
 }
 
 entry {
@@ -45,7 +47,7 @@ inputbar {
 	children:			[ prompt, entry ];
     	background-color:               @button;
     	expand:                         false;
-    	border-radius:                  6px;
+    	border-radius:                  0px;
     	margin:                         0%;
     	padding:                        10px;
 }
@@ -88,5 +90,7 @@ element-text, element-icon {
 
 element selected {
     	background-color:               @button;
-    	border-radius:                  6px;
+    	border-radius:                  0px;
+			border: 0px;
+			border-color: @fg;
 }
