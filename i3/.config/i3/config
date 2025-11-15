@@ -124,9 +124,8 @@ exec --no-startup-id picom
 exec --no-startup-id ~/.config/polybar/launch_polybar.sh
 
 # bg
-# exec --no-startup-id feh --bg-scale ~/.config/bg/catpuccin2.png
-# exec --no-startup-id feh --bg-scale ~/.config/bg/gruvbox/snake.png
-exec --no-startup-id feh --bg-scale ~/.config/bg/gruvbox/snake2.png
+exec_always --no-startup-id feh --bg-scale ~/.config/bg/gruvbox/snake2.png
+# exec_always --no-startup-id feh --bg-scale ~/.config/bg/snow1.png
 
 # newtestcolors
 set $dst2                      #252423
