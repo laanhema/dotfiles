@@ -1,3 +1,4 @@
 TODO:
 
-- disable touchpad when typing on synaptics config
+- disable touchpad when typing on synaptics 
+- fix gtk3 apps using light theme
