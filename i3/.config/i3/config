@@ -50,6 +50,9 @@ bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
+# focus the parent container
+bindsym $mod+a focus parent
+
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1"
@@ -121,8 +124,8 @@ exec --no-startup-id picom
 exec --no-startup-id ~/.config/polybar/launch_polybar.sh
 
 # bg
-#exec --no-startup-id feh --bg-scale ~/.config/bg/catpuccin2.png
-#exec --no-startup-id feh --bg-scale ~/.config/bg/gruvbox/snake.png
+# exec --no-startup-id feh --bg-scale ~/.config/bg/catpuccin2.png
+# exec --no-startup-id feh --bg-scale ~/.config/bg/gruvbox/snake.png
 exec --no-startup-id feh --bg-scale ~/.config/bg/gruvbox/snake2.png
 
 # newtestcolors
@@ -137,24 +140,24 @@ set $almost_bright             #D4BE98
 set $brightest                 #DDC7A1
 
 
-#272837 darkest
-
-#282938 dark
-#272837 dark
-
-#------------------------------
-
-#3C3E4F medium
-#4D4E5E medium
-#717181 medium_wood
-
-#------------------------------
-
-#D6C1C1 almost_bright_darker_good
-#DEC8C8 almost_bright
-
-#E2CCCB brightest_alt
-#E2CCCD brightest
+# 272837 darkest
+ 
+# 282938 dark
+# 272837 dark
+ 
+# ------------------------------
+ 
+# 3C3E4F medium
+# 4D4E5E medium
+# 717181 medium_wood
+ 
+# ------------------------------
+ 
+# D6C1C1 almost_bright_darker_good
+# DEC8C8 almost_bright
+ 
+# E2CCCB brightest_alt
+# E2CCCD brightest
 
 
 # target                 title     bg         text      indicator  border
@@ -174,7 +177,7 @@ bindsym $mod+x exec --no-startup-id ~/dotfiles/i3lock/.config/i3lock/lock.sh
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/dotfiles/i3lock/.config/i3lock/lock.sh --nofork
 
-# these take off i3 native borders, since we are using xborder for those
+# these take off i3 native borders, since we are using xborders for those
 title_align center
 default_border none
 default_floating_border none
