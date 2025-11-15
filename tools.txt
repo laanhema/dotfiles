@@ -4,7 +4,7 @@ OS:												Fedora Linux 43 (Workstation Edition)
 Login:										gdm
 WM:												i3 (X11)
 Font: 										CommitMono Nerd Font / CommitMono Nerd Font Mono (glyphs work properly with this variant in oh-my-posh theme)
-Colorscheme: 							Gruvbox Material Soft Dark by sainnhe
+General Colorscheme: 			Gruvbox Material Soft Dark by sainnhe
 Browser: 									Firefox / Librewolf / Chrome
 Shell:										Bash (using modified bubblesextra oh-my-posh theme to match with colorscheme)
 Terminal Emulator: 				Alacritty
@@ -12,12 +12,14 @@ IDE:											vscode
 Text Editor:							Sublime Text
 
 
+
 COLORS (more specifically):
 
 - vscode: 								gruvboxConcoctis dark soft
+- Alacritty: 							gruvbox material soft dark
 - Sublime Text: 					gruvbox material dark theme
 - Firefox / Librewolf: 		basic dark theme
-- Alacritty: 							gruvbox material soft dark
+
 
 
 TOOLS LIST: 

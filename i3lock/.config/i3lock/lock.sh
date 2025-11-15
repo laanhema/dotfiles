@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # orig image
-#img="/home/lauri/.config/bg/catpuccin2.png"
+# img="/home/lauri/.config/bg/catpuccin2.png"
 img="/home/lauri/.config/bg/gruvbox/snake2.png"
 
 # temp image for blur
@@ -15,12 +15,9 @@ ARGS="$@"
 
 BLANK='#0000004D'
 CLEAR='#FFFFFF4D'
-#DEFAULT='#ff00ffcc'
 DEFAULT='#DDC7A1FF'
-#TEXT='#ee00eeee'
 TEXT='#DDC7A1FF'
 WRONG='#EA6962FF'
-#VERIFYING='#bb00bbbb'
 VERIFYING='#A9B665FF'
 PRESSED='000000CC'
 
@@ -52,5 +49,5 @@ i3lock -c 000000 \
 
 $ARGS
 
-# cleanup
+# cleanup (remove temp picture)
 rm "$blurredTempImg"
