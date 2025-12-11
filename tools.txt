@@ -26,9 +26,9 @@ TOOLS LIST:
 
 - gdm
 - i3
+- polybar
 - rofi
 - picom
-- polybar
 - xborders
 - redshift
 - feh
@@ -43,3 +43,6 @@ TOOLS LIST:
 - vlc media player
 - 1password
 - own bgs
+- brightnessctl
+- blueman-applet
+- pactl

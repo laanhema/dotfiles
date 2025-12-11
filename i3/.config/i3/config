@@ -124,10 +124,10 @@ exec --no-startup-id picom
 exec --no-startup-id ~/.config/polybar/launch_polybar.sh
 
 # bg
-exec_always --no-startup-id feh --bg-scale ~/.config/bg/gruvbox/snake2.png
+exec --no-startup-id feh --bg-scale ~/.config/bg/gruvbox/snake2.png
 # exec_always --no-startup-id feh --bg-scale ~/.config/bg/snow1.png
 
-# newtestcolors
+# gruvbox dark soft colors
 set $dst2                      #252423
 set $dst                       #252423
 set $dark                      #32302F
