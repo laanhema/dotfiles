@@ -180,7 +180,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/dotfiles/i3lock/.config
 title_align center
 default_border none
 default_floating_border none
-# hide_edge_borders both
+#hide_edge_borders both
 
 # gaps are distracting
 gaps inner 0px
