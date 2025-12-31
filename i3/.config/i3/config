@@ -53,6 +53,28 @@ bindsym $mod+e layout toggle split
 # focus the parent container
 bindsym $mod+a focus parent
 
+# floating mode toggle
+bindsym $mod+Shift+f floating toggle
+
+# floating modifier
+floating_modifier $mod 
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # bindings for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: press Escape
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+Shift+t mode "resize"
+
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1"
