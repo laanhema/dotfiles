@@ -1,3 +1,4 @@
+# import colors
 general.import = [
   "~/.config/alacritty/gruvbox-material-soft-dark.toml"
 ]
