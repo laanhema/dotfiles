@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # orig image
-# img="/home/lauri/.config/bg/catpuccin2.png"
 img="/home/lauri/.config/bg/gruvbox/snake2.png"
 
 # temp image for blur

@@ -1,5 +1,5 @@
 TODO:
 
-- disable touchpad when typing on synaptics 
-- fix gtk3 apps using light theme
 - make rest of dunst icons to work
+- fix gtk3 apps using light theme
+- disable touchpad when typing on synaptics
