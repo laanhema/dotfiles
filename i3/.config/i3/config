@@ -245,3 +245,6 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 
 # rofi menu
 bindsym $mod+d exec --no-startup-id "rofi -show drun"
+
+# xrandr external display mirror keybind
+bindsym $mod+m exec --no-startup-id xrandr --output HDMI-1 --auto --same-as eDP-1
