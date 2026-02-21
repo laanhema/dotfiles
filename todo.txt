@@ -1,5 +1,7 @@
 TODO:
 
 - make rest of dunst icons to work
+- fix blur when opening up menus in chrome
 - fix gtk3 apps using light theme
 - disable touchpad when typing on synaptics
+- debug gpu drivers
