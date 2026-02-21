@@ -1,10 +1,10 @@
 TODO:
 
 - make rest of dunst icons to work v
+- install moreWaita or some other custom icon theme? (vscode doesnt have working icon for example) v
 
 ---------------------------------------------------------------
 
-- install moreWaita or some other custom icon theme? (vscode doesnt have working icon for example)
 - fix blur when opening up menus in chrome
 - fix gtk3 apps using light theme
 - debug gpu drivers

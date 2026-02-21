@@ -47,7 +47,7 @@
 
     #icon_theme = hicolor
     #enable_recursive_icon_lookup = true
-    icon_path = /usr/share/icons/hicolor/scalable/apps:/usr/share/icons/hicolor/48x48/apps:/usr/share/icons/hicolor/32x32/apps
+    icon_path = /usr/share/icons/hicolor/scalable/apps:/usr/share/icons/hicolor/48x48/apps:/usr/share/icons/hicolor/32x32/apps:/var/lib/flatpak/exports/share/icons/hicolor/scalable/apps:/var/lib/flatpak/exports/share/icons/hicolor/48x48/apps:/var/lib/flatpak/exports/share/icons/hicolor/32x32/apps:/usr/share/icons/MoreWaita/scalable/apps
     icon_position = left
     min_icon_size = 32
     max_icon_size = 32
@@ -93,3 +93,7 @@
 [nm_icon_fix]
     appname = "NetworkManager Applet"
     new_icon = "nm-device-wired"
+
+[vscode_icon_fix]
+    appname = "Code"
+    new_icon = "vscode"
