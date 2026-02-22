@@ -11,6 +11,7 @@ font pango:CommitMono Nerd Font 11
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex-autostart --autostart --environment i3
 
+# updates systemd user environment with the QT_QPA_PLATFORMTHEME variable
 exec --no-startup-id dbus-update-activation-environment --systemd QT_QPA_PLATFORMTHEME
 
 # Use pactl to adjust volume in PulseAudio
@@ -251,9 +252,14 @@ bindsym $mod+d exec --no-startup-id "rofi -show drun"
 # xrandr external display mirror keybind
 bindsym $mod+m exec --no-startup-id xrandr --output HDMI-1 --auto --same-as eDP-1
 
+# start xsettings daemon
 exec --no-startup-id xsettingsd
 
+# start XDG Desktop Portal GTK backend to run in the background
 exec --no-startup-id /usr/libexec/xdg-desktop-portal-gtk &
 
+# sets the GTK theme to Adwaita-dark for all GTK3/GTK4 applications
 exec --no-startup-id gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
+
+# sets the color scheme preference to prefer-dark, which tells applications to use their dark variants
 exec --no-startup-id gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'

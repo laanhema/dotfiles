@@ -4,8 +4,11 @@ TODO:
 - install moreWaita or some other custom icon theme? (vscode doesnt have working icon for example) v
 - fix blur when opening up menus in chrome v
 - fix gtk3 apps using light theme v
+- fix vlc top menu underlines v
 
 ---------------------------------------------------------------
 
 - debug gpu drivers
+
+- fix qbittorrent top menu underlines
 - disable touchpad when typing on synaptics

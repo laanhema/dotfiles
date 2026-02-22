@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # orig image
 img="/home/lauri/.config/bg/gruvbox/snake2.png"
@@ -45,7 +45,7 @@ i3lock -c 000000 \
 --time-str="%H:%M:%S"        \
 --date-str="%A, %d/%m/%Y"    \
 --keylayout 1                \
-
+\
 $ARGS
 
 # cleanup (remove temp picture)

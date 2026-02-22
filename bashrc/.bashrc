@@ -35,9 +35,11 @@ export SSH_ASKPASS="";
 export TERMINAL=alacritty
 
 # Load Angular CLI autocompletion
-source <(ng completion script)
+if command -v ng &> /dev/null; then
+    source <(ng completion script)
+fi
 
+# environment variables for gtk / qt
 export GTK_THEME=Adwaita:dark
 export GTK_2_CONFIG_HOME="$HOME/.gtkrc-2.0"
 export QT_QPA_PLATFORMTHEME=qt6ct
-#export QT_QPA_PLATFORMTHEME=gtk2
