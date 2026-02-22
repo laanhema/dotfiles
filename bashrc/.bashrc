@@ -36,3 +36,7 @@ export TERMINAL=alacritty
 
 # Load Angular CLI autocompletion
 source <(ng completion script)
+
+export GTK_THEME=Adwaita:dark
+export GTK_2_CONFIG_HOME="$HOME/.gtkrc-2.0"
+export QT_QPA_PLATFORMTHEME=gtk2

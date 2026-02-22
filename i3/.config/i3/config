@@ -248,3 +248,10 @@ bindsym $mod+d exec --no-startup-id "rofi -show drun"
 
 # xrandr external display mirror keybind
 bindsym $mod+m exec --no-startup-id xrandr --output HDMI-1 --auto --same-as eDP-1
+
+exec --no-startup-id xsettingsd
+
+exec --no-startup-id /usr/libexec/xdg-desktop-portal-gtk &
+
+exec --no-startup-id gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
+exec --no-startup-id gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
