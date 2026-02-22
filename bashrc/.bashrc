@@ -39,4 +39,5 @@ source <(ng completion script)
 
 export GTK_THEME=Adwaita:dark
 export GTK_2_CONFIG_HOME="$HOME/.gtkrc-2.0"
-export QT_QPA_PLATFORMTHEME=gtk2
+export QT_QPA_PLATFORMTHEME=qt6ct
+#export QT_QPA_PLATFORMTHEME=gtk2
