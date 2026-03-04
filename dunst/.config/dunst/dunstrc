@@ -97,3 +97,7 @@
 [vscode_icon_fix]
     appname = "Code"
     new_icon = "vscode"
+
+[clocks_icon_fix]
+    appname = "Clocks"
+    new_icon = "org.gnome.clocks"
