@@ -45,5 +45,7 @@ export GTK_2_CONFIG_HOME="$HOME/.gtkrc-2.0"
 export QT_QPA_PLATFORMTHEME=qt6ct
 
 # Deno
-. "/home/lauri/.deno/env"
-source /home/lauri/.local/share/bash-completion/completions/deno.bash
+if command -v deno &> /dev/null; then
+    . "/home/lauri/.deno/env"
+    source /home/lauri/.local/share/bash-completion/completions/deno.bash
+fi
