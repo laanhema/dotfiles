@@ -8,7 +8,11 @@ TODO:
 
 ---------------------------------------------------------------
 
+- gruvbox gtk / qt theme?
 - debug gpu drivers
-
-- fix qbittorrent top menu underlines
-- disable touchpad when typing on synaptics
+- get zotero to work with libreoffice writer
+- fix qbittorrent top menu underlines (flatpak)
+- fix obs-studio top menu underlines
+- fix anki top menu underlines
+- fix zoom light mode and widget menu underlines
+- disable touchpad when typing on synaptics (not so important though)
