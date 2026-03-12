@@ -5,14 +5,22 @@ TODO:
 - fix blur when opening up menus in chrome v
 - fix gtk3 apps using light theme v
 - fix vlc top menu underlines v
+- fix zoom light mode and widget menu underlines [couldn't get this to work, way too time consuming for this to be worth it] v
+- install kvantum for qt5 and qt6 v
 
 ---------------------------------------------------------------
 
+
 - gruvbox gtk / qt theme?
+
 - debug gpu drivers
-- get zotero to work with libreoffice writer
+
 - fix qbittorrent top menu underlines (flatpak)
-- fix obs-studio top menu underlines
+- fix obs-studio top menu underlines (rpm)
 - fix anki top menu underlines
-- fix zoom light mode and widget menu underlines
+
+- get obs-studio to work with nvenc drivers
+
+- get zotero to work with libreoffice writer
+
 - disable touchpad when typing on synaptics (not so important though)

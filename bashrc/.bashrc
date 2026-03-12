@@ -42,7 +42,8 @@ fi
 # environment variables for gtk / qt
 export GTK_THEME=Adwaita-dark
 export GTK_2_CONFIG_HOME="$HOME/.gtkrc-2.0"
-export QT_QPA_PLATFORMTHEME=qt6ct
+export QT_QPA_PLATFORMTHEME=qt5ct:qt6ct
+export QT_STYLE_OVERRIDE=kvantum
 
 # Deno
 if command -v deno &> /dev/null; then
