@@ -109,3 +109,7 @@
 [software_icon_fix]
     appname = "Software"
     new_icon = "org.gnome.Software"
+
+[abrt-applet_icon_fix]
+    appname = "abrt-applet"
+    new_icon = "abrt"
