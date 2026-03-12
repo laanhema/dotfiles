@@ -40,7 +40,7 @@ if command -v ng &> /dev/null; then
 fi
 
 # environment variables for gtk / qt
-export GTK_THEME=Adwaita:dark
+export GTK_THEME=Adwaita-dark
 export GTK_2_CONFIG_HOME="$HOME/.gtkrc-2.0"
 export QT_QPA_PLATFORMTHEME=qt6ct
 

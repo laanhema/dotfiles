@@ -101,3 +101,11 @@
 [clocks_icon_fix]
     appname = "Clocks"
     new_icon = "org.gnome.clocks"
+
+[baobab_icon_fix]
+    appname = "baobab"
+    new_icon = "org.gnome.baobab"
+
+[software_icon_fix]
+    appname = "Software"
+    new_icon = "org.gnome.Software"
