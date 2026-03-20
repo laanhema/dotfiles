@@ -11,7 +11,7 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:																#252423;
+	bg:																#1B1B1B;
 	fg:																#DDC7A1;
 	accent:														#687363;
 	button:														#32302F;
@@ -23,7 +23,7 @@ window {
 	border-radius:                  		0px;
 	width:			    										50%;
 	padding: 														32px;
-	border: 														0px;
+	border: 														2px;
 	border-color: 											@fg;
 }
 
