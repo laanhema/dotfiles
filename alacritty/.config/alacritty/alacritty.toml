@@ -1,6 +1,6 @@
 # import colors
 general.import = [
-  "~/.config/alacritty/gruvbox-material-soft-dark.toml"
+  "~/.config/alacritty/gruvbox_material_medium_dark_2.toml"
 ]
 
 [font]
