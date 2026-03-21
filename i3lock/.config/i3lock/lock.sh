@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # orig image
-img="/home/lauri/.config/bg/gruvbox/snake2.png"
+#img="/home/lauri/.config/bg/gruvbox/snake.png"
+img="/home/lauri/.config/bg/gruvbox/street.jpg"
+
 
 # temp image for blur
 blurredTempImg="/tmp/lockscreen_blurred.png"
