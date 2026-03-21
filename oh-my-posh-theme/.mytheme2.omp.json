@@ -20,7 +20,7 @@
           "options": {
             "folder_icon": "\uf115",
             "folder_separator_icon": " \ue0b1 ",
-            "max_depth": 2,
+            "max_depth": 10,
             "style": "agnoster_short"
           },
           "style": "powerline",
