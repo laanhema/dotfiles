@@ -28,6 +28,7 @@ unset rc
 #eval "$(oh-my-posh init bash --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/capr4n.omp.json')"
 eval "$(oh-my-posh init bash --config '~/.mytheme2.omp.json')"
 
+# add newline after command
 export PS0="\n"
 
 # git credentials environmental variables 

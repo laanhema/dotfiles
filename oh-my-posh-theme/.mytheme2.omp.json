@@ -6,16 +6,16 @@
       "newline": true,
       "segments": [
         {
-          "background": "#3A3735",
-          "foreground": "#A9B665",
+          "background": "#a89984",
+          "foreground": "#282828",
           "style": "diamond",
-          "template": "{{if .Root}} \uf0e7 <bold>{{.UserName}}</> {{else}} <bold>{{.UserName}}</> {{end}}",
+          "template": "{{if .Root}} \uf0e7 <b>{{.UserName}}</b> {{else}} <b>{{.UserName}}</b> {{end}}",
           "trailing_diamond": "\ue0b0",
           "type": "session"
         },
         {
-          "background": "#3A3735",
-          "foreground": "#A9B665",
+          "background": "#504945",
+          "foreground": "#ddc7a1",
           "powerline_symbol": "\ue0b0",
           "options": {
             "folder_icon": "\uf115",
@@ -24,16 +24,16 @@
             "style": "agnoster_short"
           },
           "style": "powerline",
-          "template": " {{ .Path }} ",
+          "template": " \uf115 {{ .Path }} ",
           "type": "path"
         },
         {
-          "background": "#3A3735",
-          "foreground": "#A9B665",
-          "leading_diamond": "<transparent,#3A3735>\ue0b0</>",
+          "background": "#504945",
+          "foreground": "#ddc7a1",
+          "leading_diamond": "<transparent,#504945>\ue0b0</>",
           "powerline_symbol": "\ue0b0",
           "style": "diamond",
-          "template": " {{ .HEAD }} ",
+          "template": " \uf09b {{ .HEAD }} ",
           "type": "git",
           "trailing_diamond": "\ue0b0"
         }
