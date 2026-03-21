@@ -10,6 +10,8 @@ TODO:
 
 ---------------------------------------------------------------
 
+- fix nvim resetting cursor to be a block after quitting in alacritty
+
 - fix github repo icon not showing in alacritty
 
 - gruvbox gtk / qt theme?
