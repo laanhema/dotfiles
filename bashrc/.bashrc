@@ -25,6 +25,7 @@ fi
 unset rc
 
 # setup oh-my-posh theme
+#eval "$(oh-my-posh init bash --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/capr4n.omp.json')"
 eval "$(oh-my-posh init bash --config '~/.mytheme.omp.json')"
 
 # git credentials environmental variables 
