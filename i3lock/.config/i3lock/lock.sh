@@ -3,6 +3,10 @@
 # orig image
 #img="/home/lauri/.config/bg/gruvbox/snake.jpg"
 img="/home/lauri/.config/bg/gruvbox/street.jpg"
+#img="/home/lauri/.config/bg/gruvbox/palmtree.jpg"
+#img="/home/lauri/.config/bg/gruvbox/pixel.png"
+#img="/home/lauri/.config/bg/gruvbox/cyborg.png"
+#img="/home/lauri/.config/bg/gruvbox/leaf.jpg"
 
 
 # temp image for blur
@@ -17,9 +21,9 @@ ARGS="$@"
 BLANK='#0000004D'
 DEFAULT='#DDC7A1FF'
 WRONG='#EA6962FF'
-WRONG_TRANSPARENT='#EA696233'
+WRONG_TRANSPARENT='#EA69624D'
 VERIFYING='#A9B665FF'
-VERIFYING_TRANSPARENT='#A9B66533'
+VERIFYING_TRANSPARENT='#A9B6654D'
 PRESSED='#000000CC'
 
 i3lock -c 000000 \
