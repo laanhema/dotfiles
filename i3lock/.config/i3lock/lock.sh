@@ -6,7 +6,7 @@ img="/home/lauri/.config/bg/gruvbox/street.jpg"
 
 
 # temp image for blur
-blurredTempImg="/tmp/lockscreen_blurred.png"
+blurredTempImg="/tmp/lockscreen_blurred.jpg"
 
 # blur processing
 magick "$img" -blur 0x5 "$blurredTempImg"
@@ -15,19 +15,19 @@ magick "$img" -blur 0x5 "$blurredTempImg"
 ARGS="$@"
 
 BLANK='#0000004D'
-CLEAR='#FFFFFF4D'
 DEFAULT='#DDC7A1FF'
-TEXT='#DDC7A1FF'
 WRONG='#EA6962FF'
+WRONG_TRANSPARENT='#EA696233'
 VERIFYING='#A9B665FF'
-PRESSED='000000CC'
+VERIFYING_TRANSPARENT='#A9B66533'
+PRESSED='#000000CC'
 
 i3lock -c 000000 \
 --image="$blurredTempImg" \
---insidever-color=$CLEAR     \
+--insidever-color=$VERIFYING_TRANSPARENT     \
 --ringver-color=$VERIFYING   \
 \
---insidewrong-color=$CLEAR   \
+--insidewrong-color=$WRONG_TRANSPARENT   \
 --ringwrong-color=$WRONG     \
 \
 --inside-color=$BLANK        \
@@ -35,11 +35,11 @@ i3lock -c 000000 \
 --line-color=$BLANK          \
 --separator-color=$DEFAULT   \
 \
---verif-color=$TEXT          \
---wrong-color=$TEXT          \
---time-color=$TEXT           \
---date-color=$TEXT           \
---layout-color=$TEXT         \
+--verif-color=$DEFAULT          \
+--wrong-color=$DEFAULT          \
+--time-color=$DEFAULT           \
+--date-color=$DEFAULT           \
+--layout-color=$DEFAULT         \
 --keyhl-color=$PRESSED       \
 --bshl-color=$WRONG          \
 --clock                      \
