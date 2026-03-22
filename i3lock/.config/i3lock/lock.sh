@@ -1,19 +1,19 @@
 #!/bin/bash
 
 # orig image
-#img="/home/lauri/.config/bg/gruvbox/snake.jpg"
 img="/home/lauri/.config/bg/gruvbox/street.jpg"
-#img="/home/lauri/.config/bg/gruvbox/palmtree.jpg"
-#img="/home/lauri/.config/bg/gruvbox/pixel.png"
-#img="/home/lauri/.config/bg/gruvbox/cyborg.png"
+#img="/home/lauri/.config/bg/gruvbox/pixel.jpg"
 #img="/home/lauri/.config/bg/gruvbox/leaf.jpg"
+#img="/home/lauri/.config/bg/gruvbox/snake.jpg"
+#img="/home/lauri/.config/bg/gruvbox/cyborg.jpg"
+#img="/home/lauri/.config/bg/gruvbox/palmtree.jpg"
 
 
 # temp image for blur
 blurredTempImg="/tmp/lockscreen_blurred.jpg"
 
 # blur processing
-magick "$img" -blur 0x5 "$blurredTempImg"
+magick "$img" -gravity center -crop 1920x1080+0+0 +repage -blur 0x5 "$blurredTempImg"
 
 # for --nofork
 ARGS="$@"
