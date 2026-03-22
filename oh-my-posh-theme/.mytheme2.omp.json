@@ -6,7 +6,7 @@
       "newline": true,
       "segments": [
         {
-          "background": "#a89984",
+          "background": "#D8A657",
           "foreground": "#282828",
           "style": "diamond",
           "template": "{{if .Root}} \uf0e7 <b>{{.UserName}}</b> {{else}} <b>{{.UserName}}</b> {{end}}",
@@ -15,7 +15,7 @@
         },
         {
           "background": "#504945",
-          "foreground": "#ddc7a1",
+          "foreground": "#DDC7A1",
           "powerline_symbol": "\ue0b0",
           "options": {
             "folder_icon": "\uf115",
@@ -28,9 +28,9 @@
           "type": "path"
         },
         {
-          "background": "#504945",
-          "foreground": "#ddc7a1",
-          "leading_diamond": "<transparent,#504945>\ue0b0</>",
+          "background": "#7DAEA3",
+          "foreground": "#282828",
+          "leading_diamond": "<transparent,#7DAEA3>\ue0b0</>",
           "powerline_symbol": "\ue0b0",
           "style": "diamond",
           "template": " \uf09b {{ .HEAD }} ",
