@@ -33,7 +33,7 @@
           "leading_diamond": "<transparent,#7DAEA3>\ue0b0</>",
           "powerline_symbol": "\ue0b0",
           "style": "diamond",
-          "template": " \uf09b {{ .HEAD }} ",
+          "template": " \uf09b <b>{{ .HEAD }}</b> ",
           "type": "git",
           "trailing_diamond": "\ue0b0"
         }
