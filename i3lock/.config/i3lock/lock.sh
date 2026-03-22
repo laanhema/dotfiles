@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # orig image
-#img="/home/lauri/.config/bg/gruvbox/snake.png"
+#img="/home/lauri/.config/bg/gruvbox/snake.jpg"
 img="/home/lauri/.config/bg/gruvbox/street.jpg"
 
 
