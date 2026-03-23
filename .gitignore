@@ -1,2 +1,5 @@
 # Ignore temporary todo.txt
 todo.txt
+
+# Ignore backup files
+*.bak
