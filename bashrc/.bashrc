@@ -36,7 +36,7 @@ export GIT_ASKPASS="";
 export SSH_ASKPASS="";
 
 # terminal environmental variable
-export TERMINAL=alacritty
+export TERMINAL=kitty
 
 # Load Angular CLI autocompletion
 if command -v ng &> /dev/null; then
