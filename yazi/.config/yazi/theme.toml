@@ -1,2 +1,12 @@
 [flavor]
 dark = "gruvbox-material"
+
+[status]
+sep_left  = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
+[tabs]
+separator = { open = "", close = "" }
+
+[indicator]
+padding = { open = "▐", close = "▌" }
