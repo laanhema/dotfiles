@@ -74,3 +74,6 @@ function yazi() {
     fi
     rm -f -- "$tmp"
 }
+
+export EDITOR="nvim"
+export VISUAL="nvim"

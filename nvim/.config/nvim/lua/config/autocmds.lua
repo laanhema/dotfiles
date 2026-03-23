@@ -10,5 +10,13 @@
 -- Restore cursor to a vertical beam on exit
 vim.api.nvim_create_autocmd("VimLeave", {
   pattern = "*",
-  command = "set guicursor=a:ver25"
+  command = "set guicursor=a:ver25",
+})
+
+-- Force spell checking off for filetypes where LazyVim forces it on
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "gitcommit", "markdown", "text" },
+  callback = function()
+    vim.opt_local.spell = false
+  end,
 })
