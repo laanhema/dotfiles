@@ -54,3 +54,23 @@ if command -v deno &> /dev/null; then
     . "/home/lauri/.deno/env"
     source /home/lauri/.local/share/bash-completion/completions/deno.bash
 fi
+
+# kitty beam cursor fix
+function yazi() {
+    # Create a temporary file to store the final directory
+    local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+
+    # Run the actual yazi program
+    command yazi "$@" --cwd-file="$tmp"
+
+    # ----------------------------------------------------
+    # THE CURSOR FIX: Force Kitty/Tmux back to a Blinking Beam (5)
+    printf '\e[5 q'
+    # ----------------------------------------------------
+
+    # THE DIRECTORY TRICK: cd into the last directory you were in
+    if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+        builtin cd -- "$cwd"
+    fi
+    rm -f -- "$tmp"
+}
