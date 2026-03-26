@@ -6,7 +6,8 @@ sep_left  = { open = "", close = "" }
 sep_right = { open = "", close = "" }
 
 [tabs]
-separator = { open = "", close = "" }
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
 
 [indicator]
 padding = { open = "▐", close = "▌" }
