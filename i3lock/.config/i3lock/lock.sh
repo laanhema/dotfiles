@@ -5,7 +5,8 @@ img="/home/lauri/.config/bg/gruvbox/street.jpg"
 #img="/home/lauri/.config/bg/gruvbox/pixel.jpg"
 #img="/home/lauri/.config/bg/gruvbox/leaf.jpg"
 #img="/home/lauri/.config/bg/gruvbox/snake.jpg"
-#img="/home/lauri/.config/bg/gruvbox/cyborg.jpg"
+#img="/home/lauri/.config/bg/gruvbox/cyborgdark.png"
+#img="/home/lauri/.config/bg/gruvbox/cyborglight.png"
 #img="/home/lauri/.config/bg/gruvbox/palmtree.jpg"
 
 

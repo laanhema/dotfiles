@@ -167,9 +167,13 @@ exec --no-startup-id picom
 exec --no-startup-id ~/.config/polybar/launch_polybar.sh
 
 # bg
-#exec --no-startup-id feh --bg-center ~/.config/bg/gruvbox/snake.jpg
 exec --no-startup-id feh --bg-center ~/.config/bg/gruvbox/street.jpg
+#exec --no-startup-id feh --bg-center ~/.config/bg/gruvbox/pixel.jpg
 #exec --no-startup-id feh --bg-center ~/.config/bg/gruvbox/leaf.jpg
+#exec --no-startup-id feh --bg-center ~/.config/bg/gruvbox/snake.jpg
+#exec --no-startup-id feh --bg-center ~/.config/bg/gruvbox/cyborgdark.png
+#exec --no-startup-id feh --bg-center ~/.config/bg/gruvbox/cyborglight.png
+#exec --no-startup-id feh --bg-center ~/.config/bg/gruvbox/palmtree.jpg
 
 # gruvbox dark soft colors
 set $dst2                      #252423
