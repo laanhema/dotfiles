@@ -16,7 +16,6 @@
   "hard_tabs": false,
   "audio": {
     "experimental.auto_microphone_volume": true,
-    "experimental.rodio_audio": true,
   },
   "close_on_file_delete": true,
   "file_finder": {
@@ -84,6 +83,12 @@
   "show_edit_predictions": false,
   "disable_ai": false,
   "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gemini-3.1-pro-preview",
+      "enable_thinking": true,
+      "effort": "high",
+    },
     "expand_terminal_card": true,
     "use_modifier_to_send": true,
     "dock": "right",

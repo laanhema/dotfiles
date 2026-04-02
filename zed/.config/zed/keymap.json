@@ -21,7 +21,7 @@
   {
     "context": "(Editor && mode == full)",
     "bindings": {
-      "alt-z": "editor::ToggleSoftWrap"
-    }
-  }
+      "alt-z": "editor::ToggleSoftWrap",
+    },
+  },
 ]
