@@ -77,3 +77,7 @@ function yazi() {
 
 export EDITOR="nvim"
 export VISUAL="nvim"
+
+# android envs required for nativescript development
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/platform-tools
