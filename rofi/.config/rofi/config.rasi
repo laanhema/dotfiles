@@ -1,6 +1,6 @@
 configuration {
 	modi:															"drun";
-	font:															"JetBrainsMono Nerd Font 11";
+	font:															"CommitMono Nerd Font 11";
 	show-icons:                     	true;
 	icon-theme: 											"";
 	display-drun: 										"";
