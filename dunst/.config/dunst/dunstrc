@@ -28,7 +28,7 @@
     gap_size = 15
     separator_color = frame
     sort = yes
-    font = CommitMono Nerd Font Mono 11
+    font = JetBrainsMono Nerd Font 11
 
     line_height = 1
 
