@@ -10,8 +10,8 @@
 #img="/home/lauri/.config/bg/gruvbox/palmtree.jpg"
 #img="/home/lauri/.config/bg/guweiz/alley.jpg"      
 #img="/home/lauri/.config/bg/guweiz/butterfly.jpg"  
-#img="/home/lauri/.config/bg/guweiz/cozy.jpg"
-img="/home/lauri/.config/bg/guweiz/gate.jpg"
+img="/home/lauri/.config/bg/guweiz/cozy.jpg"
+#img="/home/lauri/.config/bg/guweiz/gate.jpg"
 #img="/home/lauri/.config/bg/guweiz/samurai.jpg"    
 #img="/home/lauri/.config/bg/guweiz/warrior.jpg"
 
