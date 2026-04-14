@@ -10,6 +10,7 @@ return {
         explorer = {
           hidden = true,
           ignored = true,
+          focus = "list",
         },
         files = {
           hidden = true,
