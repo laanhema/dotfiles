@@ -24,7 +24,7 @@
             "style": "agnoster_short"
           },
           "style": "powerline",
-          "template": " \uf115 {{ .Path }} ",
+          "template": " \uf115  {{ .Path }} ",
           "type": "path"
         },
         {

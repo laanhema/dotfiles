@@ -9,28 +9,28 @@
 {
   "use_system_path_prompts": true,
   "tasks": {
-    "enabled": true,
+    "enabled": true
   },
   "show_completions_on_input": true,
   "show_completion_documentation": true,
   "hard_tabs": false,
   "audio": {
-    "experimental.auto_microphone_volume": true,
+    "experimental.auto_microphone_volume": true
   },
   "close_on_file_delete": true,
   "file_finder": {
-    "file_icons": true,
+    "file_icons": true
   },
   "middle_click_paste": false,
   "minimap": {
-    "show": "never",
+    "show": "never"
   },
   "inline_code_actions": false,
   "drag_and_drop_selection": {
-    "enabled": false,
+    "enabled": false
   },
   "sticky_scroll": {
-    "enabled": false,
+    "enabled": false
   },
   "excerpt_context_lines": 2,
   "minimum_contrast_for_highlights": 12.0,
@@ -43,14 +43,14 @@
   "ui_font_weight": 400.0,
   "tab_size": 2,
   "vim": {
-    "toggle_relative_line_numbers": true,
+    "toggle_relative_line_numbers": true
   },
   "toolbar": {
     "code_actions": false,
     "breadcrumbs": false,
     "agent_review": false,
     "selections_menu": false,
-    "quick_actions": false,
+    "quick_actions": false
   },
   "relative_line_numbers": "enabled",
   "gutter": {
@@ -58,7 +58,7 @@
     "folds": true,
     "min_line_number_digits": 3,
     "runnables": false,
-    "line_numbers": true,
+    "line_numbers": true
   },
   "horizontal_scroll_margin": 5.0,
   "vertical_scroll_margin": 3.0,
@@ -70,15 +70,15 @@
   "git": {
     "inline_blame": {
       "show_commit_summary": false,
-      "enabled": false,
+      "enabled": false
     },
     "git_gutter": "tracked_files",
     "enable_status": true,
-    "enable_diff": true,
+    "enable_diff": true
   },
   "edit_predictions": {
     "mode": "subtle",
-    "enabled_in_text_threads": true,
+    "enabled_in_text_threads": true
   },
   "show_edit_predictions": false,
   "disable_ai": false,
@@ -87,7 +87,7 @@
       "provider": "copilot_chat",
       "model": "gemini-3.1-pro-preview",
       "enable_thinking": true,
-      "effort": "high",
+      "effort": "high"
     },
     "expand_terminal_card": true,
     "use_modifier_to_send": true,
@@ -95,13 +95,13 @@
     "enable_feedback": true,
     "button": true,
     "favorite_models": [],
-    "model_parameters": [],
+    "model_parameters": []
   },
   "collaboration_panel": {
-    "button": true,
+    "button": true
   },
   "notification_panel": {
-    "button": true,
+    "button": true
   },
   "git_panel": {
     "tree_view": false,
@@ -109,7 +109,7 @@
     "sort_by_path": false,
     "status_style": "icon",
     "dock": "left",
-    "button": true,
+    "button": true
   },
   "outline_panel": {
     "expand_outlines_with_depth": 100,
@@ -119,17 +119,17 @@
     "folder_icons": true,
     "file_icons": true,
     "dock": "left",
-    "button": false,
+    "button": false
   },
   "zoomed_padding": true,
   "active_pane_modifiers": {
-    "border_size": 0.0,
+    "border_size": 0.0
   },
   "window_decorations": "client",
   "use_system_window_tabs": false,
   "centered_layout": {
     "right_padding": 0.2,
-    "left_padding": 0.2,
+    "left_padding": 0.2
   },
   "bottom_dock_layout": "contained",
   "preview_tabs": {
@@ -137,33 +137,33 @@
     "enable_preview_from_multibuffer": true,
     "enable_preview_from_file_finder": false,
     "enable_preview_from_project_panel": true,
-    "enabled": true,
+    "enabled": true
   },
   "tabs": {
     "show_close_button": "hover",
     "close_position": "right",
     "file_icons": true,
-    "git_status": true,
+    "git_status": true
   },
   "tab_bar": {
     "show_pinned_tabs_in_separate_row": false,
     "show_tab_bar_buttons": true,
     "show_nav_history_buttons": false,
-    "show": true,
+    "show": true
   },
   "search": {
-    "button": false,
+    "button": false
   },
   "diagnostics": {
     "inline": {
       "enabled": false,
-      "padding": 4,
+      "padding": 4
     },
-    "button": true,
+    "button": true
   },
   "terminal": {
     "toolbar": {
-      "breadcrumbs": false,
+      "breadcrumbs": false
     },
     "alternate_scroll": "on",
     "font_weight": 400.0,
@@ -171,21 +171,21 @@
     "blinking": "on",
     "cursor_shape": "bar",
     "font_size": 14.0,
-    "font_family": "CommitMono Nerd Font Mono",
+    "font_family": "CommitMono Nerd Font",
     "dock": "bottom",
-    "button": true,
+    "button": true
   },
   "project_panel": {
     "drag_and_drop": false,
     "indent_guides": {
-      "show": "always",
+      "show": "always"
     },
     "bold_folder_labels": false,
     "default_width": 240.0,
     "hide_root": false,
     "sticky_scroll": false,
     "scrollbar": {
-      "show": "auto",
+      "show": "auto"
     },
     "auto_fold_dirs": false,
     "starts_open": true,
@@ -197,7 +197,7 @@
     "entry_spacing": "comfortable",
     "hide_gitignore": false,
     "dock": "left",
-    "button": true,
+    "button": true
   },
   "title_bar": {
     "show_user_picture": true,
@@ -207,47 +207,47 @@
     "show_branch_name": true,
     "show_menus": true,
     "show_sign_in": true,
-    "show_branch_icon": true,
+    "show_branch_icon": true
   },
   "status_bar": {
     "active_language_button": true,
     "active_encoding_button": "non_utf8",
-    "cursor_position_button": false,
+    "cursor_position_button": false
   },
   "debugger": {
-    "button": true,
+    "button": true
   },
   "prettier": {
-    "allowed": true,
+    "allowed": true
   },
   "colorize_brackets": true,
   "inlay_hints": {
-    "show_background": false,
+    "show_background": false
   },
   "completions": {
-    "words": "fallback",
+    "words": "fallback"
   },
   "soft_wrap": "editor_width",
   "indent_guides": {
     "active_line_width": 1,
     "coloring": "indent_aware",
     "line_width": 1,
-    "enabled": true,
+    "enabled": true
   },
   "scrollbar": {
     "cursors": true,
     "show": "auto",
     "axes": {
       "vertical": true,
-      "horizontal": true,
+      "horizontal": true
     },
-    "git_diff": true,
+    "git_diff": true
   },
   "auto_signature_help": false,
   "scroll_beyond_last_line": "one_page",
   "which_key": {
     "delay_ms": 1000,
-    "enabled": true,
+    "enabled": true
   },
   "rounded_selection": false,
   "buffer_line_height": "standard",
@@ -257,14 +257,14 @@
   "buffer_font_family": "CommitMono Nerd Font",
   "telemetry": {
     "diagnostics": true,
-    "metrics": true,
+    "metrics": true
   },
   "session": {
-    "trust_all_worktrees": true,
+    "trust_all_worktrees": true
   },
   "base_keymap": "VSCode",
   "icon_theme": "Seti Icon Theme",
   "ui_font_size": 14.0,
   "buffer_font_size": 15.0,
-  "theme": "VSCode Dark Modern",
+  "theme": "VSCode Dark Modern"
 }
