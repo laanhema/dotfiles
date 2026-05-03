@@ -83,6 +83,7 @@
   "show_edit_predictions": false,
   "disable_ai": false,
   "agent": {
+    "sidebar_side": "left",
     "default_model": {
       "provider": "copilot_chat",
       "model": "gemini-3.1-pro-preview",
@@ -98,6 +99,7 @@
     "model_parameters": []
   },
   "collaboration_panel": {
+    "dock": "left",
     "button": true
   },
   "notification_panel": {
