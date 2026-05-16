@@ -1,0 +1,138 @@
+{
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontFamily": "CommitMono Nerd Font",
+  "editor.fontSize": 15,
+  "workbench.iconTheme": "vs-seti",
+  "editor.fontWeight": "normal",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.wordWrap": "on",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyleInactive": "none",
+  "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.customGlyphs": false,
+  "terminal.integrated.drawBoldTextInBrightColors": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": null,
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.env.windows": {
+    "NODE_OPTIONS": "--max-old-space-size=8192"
+  },
+  "workbench.startupEditor": "none",
+  "git.openRepositoryInParentFolders": "never",
+  "git.blame.statusBarItem.enabled": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "typescript": false
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": false,
+  "errorLens.enabled": false,
+  "errorLens.enabledDiagnosticLevels": [
+    "warning",
+    "info"
+  ],
+  "eslint.enable": true,
+  "window.newWindowProfile": "Default",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "svelte.enable-ts-plugin": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "bootstrapIntelliSense": {
+    "enable": false,
+    "bsVersion": "5.3.7",
+    "useLocalFile": false,
+    "cssFilePath": "",
+    "languageSupport": []
+  },
+  // trying to fix terminal making vscode to freeze
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.enablePersistentSessions": false,
+  "editor.smoothScrolling": false,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.cursorWidth": 2,
+  "vscode-pets.petSize": "small",
+  "vscode-pets.theme": "winter",
+  "vscode-pets.disableEffects": true,
+  "chat.viewSessions.orientation": "stacked",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "gruvboxConcoctis.useItalicFont": false,
+  "gruvboxConcoctis.usePalette": "mix",
+  "editor.glyphMargin": true,
+  "workbench.activityBar.location": "top",
+  // vim keybindings configs
+  // true   =   vim handles
+  // false  =   vscode handles
+  "vim.handleKeys": {
+    "<C-k>": false,
+    "<C-k><C-m>": false,
+    "<C-k><C-o>": false,
+    "<C-o>": false,
+    "<C-j>": false,
+    "<C-s>": false,
+    "<C-a>": false,
+    "<C-A-b>": false,
+    "<C-S-p>": false,
+    "<C-S-x>": false,
+    "<C-S-g>": false,
+    "<C-S-d>": false,
+    "<C-S-f>": false,
+    "<C-S-e>": false,
+    "<C-w>": false,
+    "<C-i>": false,
+    "<C-PageUp>": false,
+    "<C-PageDown>": false,
+    "<C-/>": false,
+    "<C-Tab>": false
+  },
+  "json.schemaDownload.trustedDomains": {
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://www.schemastore.org/": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.associations": {
+    "config": "shellscript"
+  },
+  "antigravity.marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items",
+  "antigravity.marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery/",
+  "editor.folding": false,
+  "editor.foldingHighlight": false,
+  "editor.lineNumbers": "relative"
+}
