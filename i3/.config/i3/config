@@ -182,7 +182,9 @@ exec --no-startup-id ~/.config/polybar/launch_polybar.sh
 #exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/cozy.jpg
 #exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/gate.jpg
 #exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/samurai.jpg
-exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/warrior.jpg
+#exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/warrior.jpg
+#exec --no-startup-id feh --bg-center ~/.config/bg/marathon/marathon-thief-shell-1.jpg
+exec --no-startup-id feh --bg-center ~/.config/bg/marathon/marathon-thief-shell-2.jpg
 
 # gruvbox dark soft colors
 set $dst2                      #252423

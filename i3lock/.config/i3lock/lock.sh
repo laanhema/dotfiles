@@ -13,7 +13,9 @@
 #img="/home/lauri/.config/bg/guweiz/cozy.jpg"
 #img="/home/lauri/.config/bg/guweiz/gate.jpg"
 #img="/home/lauri/.config/bg/guweiz/samurai.jpg"    
-img="/home/lauri/.config/bg/guweiz/warrior.jpg"
+#img="/home/lauri/.config/bg/guweiz/warrior.jpg"
+#img="/home/lauri/.config/bg/marathon/marathon-thief-shell-1.jpg"
+img="/home/lauri/.config/bg/marathon/marathon-thief-shell-2.jpg"
 
 
 # temp image for blur
