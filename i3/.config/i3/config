@@ -14,8 +14,11 @@ font pango:CommitMono Nerd Font 11
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex-autostart --autostart --environment i3
 
-# updates systemd user environment with the QT_QPA_PLATFORMTHEME variable
-exec --no-startup-id dbus-update-activation-environment --systemd QT_QPA_PLATFORMTHEME
+# update systemd user environment with variables needed for desktop portals
+exec --no-startup-id dbus-update-activation-environment --systemd DISPLAY XAUTHORITY XDG_CURRENT_DESKTOP QT_QPA_PLATFORMTHEME
+
+# start the i3-session.target to properly start xdg-desktop-portal
+exec --no-startup-id systemctl --user start i3-session.target
 
 # Use pactl to adjust volume in PulseAudio
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -36,7 +39,7 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
-#switch window focus (vim-keys)
+# switch window focus (vim-keys)
 bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
@@ -179,12 +182,12 @@ exec --no-startup-id ~/.config/polybar/launch_polybar.sh
 #exec --no-startup-id feh --bg-center ~/.config/bg/gruvbox/palmtree.jpg
 #exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/alley.jpg
 #exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/butterfly.jpg
-#exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/cozy.jpg
+exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/cozy.jpg
 #exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/gate.jpg
 #exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/samurai.jpg
 #exec --no-startup-id feh --bg-center ~/.config/bg/guweiz/warrior.jpg
 #exec --no-startup-id feh --bg-center ~/.config/bg/marathon/marathon-thief-shell-1.jpg
-exec --no-startup-id feh --bg-center ~/.config/bg/marathon/marathon-thief-shell-2.jpg
+#exec --no-startup-id feh --bg-center ~/.config/bg/marathon/marathon-thief-shell-2.jpg
 
 # gruvbox dark soft colors
 set $dst2                      #252423
@@ -270,9 +273,6 @@ bindsym $mod+m exec --no-startup-id xrandr --output HDMI-1 --auto --same-as eDP-
 
 # start xsettings daemon
 exec --no-startup-id xsettingsd
-
-# start XDG Desktop Portal GTK backend to run in the background
-exec --no-startup-id /usr/libexec/xdg-desktop-portal-gtk &
 
 # sets the GTK theme to Adwaita-dark for all GTK3/GTK4 applications
 exec --no-startup-id gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
