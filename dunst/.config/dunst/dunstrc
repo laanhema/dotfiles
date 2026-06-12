@@ -113,3 +113,7 @@
 [abrt-applet_icon_fix]
     appname = "abrt-applet"
     new_icon = "abrt"
+
+[Pomotroid_icon_fix]
+    appname = "Pomotroid"
+    new_icon = "pomotroid"
