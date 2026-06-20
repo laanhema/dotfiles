@@ -23,6 +23,7 @@ style = "Bold Italic"
 [window]
 padding = { x = 10, y = 10 }
 startup_mode = "Maximized"
+dynamic_padding = true
 
 [cursor]
 style = { shape = "Beam", blinking = "On" }
