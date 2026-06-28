@@ -82,3 +82,5 @@ export VISUAL="nvim"
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# opencode
+export PATH=/home/lauri/.opencode/bin:$PATH
