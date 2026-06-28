@@ -43,11 +43,13 @@ if command -v ng &>/dev/null; then
   source <(ng completion script)
 fi
 
-# environment variables for gtk / qt
-export GTK_THEME=Adwaita-dark
-export GTK_2_CONFIG_HOME="$HOME/.gtkrc-2.0"
-export QT_QPA_PLATFORMTHEME=qt5ct:qt6ct
-export QT_STYLE_OVERRIDE=kvantum
+# environment variables for gtk / qt (only in i3 session)
+if [[ "$XDG_CURRENT_DESKTOP" == *i3* ]] || [[ "$DESKTOP_SESSION" == *i3* ]]; then
+  export GTK_THEME=Adwaita-dark
+  export GTK_2_CONFIG_HOME="$HOME/.gtkrc-2.0"
+  export QT_QPA_PLATFORMTHEME=qt5ct:qt6ct
+  export QT_STYLE_OVERRIDE=kvantum
+fi
 
 # Deno
 if command -v deno &>/dev/null; then
