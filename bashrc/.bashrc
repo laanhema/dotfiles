@@ -86,3 +86,4 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # opencode
 export PATH=/home/lauri/.opencode/bin:$PATH
+. "$HOME/.cargo/env"
