@@ -86,7 +86,11 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # opencode
 export PATH=/home/lauri/.opencode/bin:$PATH
-. "$HOME/.cargo/env"
+
+# Only load Cargo environment if the file actually exists
+if [ -f "$HOME/.cargo/env" ]; then
+    . "$HOME/.cargo/env"
+fi
 
 lc() {
   local wrapper="/home/lauri/.local/bin/lc"
