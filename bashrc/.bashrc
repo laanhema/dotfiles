@@ -87,3 +87,31 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # opencode
 export PATH=/home/lauri/.opencode/bin:$PATH
 . "$HOME/.cargo/env"
+
+lc() {
+  local wrapper="/home/lauri/.local/bin/lc"
+  local py_script="${SCRIPT_PATH:-/home/lauri/github/python-scripts/previous-command-clipboard.py}"
+
+  if [ ! -f "$wrapper" ] || [ ! -f "$py_script" ]; then
+    echo "Error: Required scripts for 'lc' are missing." >&2
+    echo "Please ensure both $wrapper and $py_script exist." >&2
+    return 1
+  fi
+
+  local prev_cmd=$(fc -ln -2 -2 | sed 's/^[ \t]*//')
+  "$wrapper" "$prev_cmd"
+}
+
+cpo() {
+  local wrapper="/home/lauri/.local/bin/cpo"
+  local py_script="${SCRIPT_PATH:-/home/lauri/github/python-scripts/copy-previous-output.py}"
+
+  if [ ! -f "$wrapper" ] || [ ! -f "$py_script" ]; then
+    echo "Error: Required scripts for 'cpo' are missing." >&2
+    echo "Please ensure both $wrapper and $py_script exist." >&2
+    return 1
+  fi
+
+  local prev_cmd=$(fc -ln -2 -2 | sed 's/^[ \t]*//')
+  "$wrapper" "$prev_cmd"
+}
