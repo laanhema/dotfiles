@@ -92,12 +92,12 @@ if [ -f "$HOME/.cargo/env" ]; then
     . "$HOME/.cargo/env"
 fi
 
-lc() {
-  local wrapper="/home/lauri/.local/bin/lc"
-  local py_script="${SCRIPT_PATH:-/home/lauri/github/python-scripts/previous-command-clipboard.py}"
+cpc() {
+  local wrapper="/home/lauri/.local/bin/cpc"
+  local py_script="${SCRIPT_PATH:-/home/lauri/github/python-scripts/copy-previous-command.py}"
 
   if [ ! -f "$wrapper" ] || [ ! -f "$py_script" ]; then
-    echo "Error: Required scripts for 'lc' are missing." >&2
+    echo "Error: Required scripts for 'cpc' are missing." >&2
     echo "Please ensure both $wrapper and $py_script exist." >&2
     return 1
   fi
