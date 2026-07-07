@@ -230,7 +230,7 @@ client.placeholder       $dst2     $abdg      $dst2     $dst2      $abdg
 client.background        $dst2
 
 # keyboard layout switch setup
-exec --no-startup-id "setxkbmap -layout us,fi -option 'grp:win_space_toggle'"
+exec --no-startup-id "setxkbmap -layout fi,us -option 'grp:win_space_toggle'"
 
 # Shortcut for Lockscreen
 bindsym $mod+x exec --no-startup-id ~/dotfiles/i3lock/.config/i3lock/lock.sh
