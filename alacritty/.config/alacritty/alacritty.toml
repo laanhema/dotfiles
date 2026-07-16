@@ -27,3 +27,8 @@ dynamic_padding = true
 
 [cursor]
 style = { shape = "Beam", blinking = "On" }
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
