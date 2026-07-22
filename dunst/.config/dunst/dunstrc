@@ -117,3 +117,7 @@
 [Pomotroid_icon_fix]
     appname = "Pomotroid"
     new_icon = "pomotroid"
+
+[Antigravity_icon_fix]
+    appname = "Antigravity IDE"
+    new_icon = "antigravity-ide"

@@ -119,3 +119,7 @@ cpo() {
   local prev_cmd=$(fc -ln -2 -2 | sed 's/^[ \t]*//')
   "$wrapper" "$prev_cmd"
 }
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/lauri/.local/bin:$PATH"
