@@ -120,6 +120,19 @@ cpo() {
   "$wrapper" "$prev_cmd"
 }
 
+cpa() {
+  local wrapper="/home/lauri/.local/bin/cpa"
+  local py_script="${SCRIPT_PATH:-/home/lauri/github/python-scripts/copy-previous-all.py}"
+
+  if [ ! -f "$wrapper" ] || [ ! -f "$py_script" ]; then
+    echo "Error: Required scripts for 'cpa' are missing." >&2
+    echo "Please ensure both $wrapper and $py_script exist." >&2
+    return 1
+  fi
+
+  local prev_cmd=$(fc -ln -2 -2 | sed 's/^[ \t]*//')
+  "$wrapper" "$prev_cmd"
+}
 
 # Added by Antigravity CLI installer
 export PATH="/home/lauri/.local/bin:$PATH"
